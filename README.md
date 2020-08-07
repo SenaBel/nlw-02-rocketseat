@@ -1,10 +1,9 @@
 # Next Level Week -- 02
 Projeto foi desenvolvido na semana de treinamento da NLW - 02, oferecido pela [Rocketseat](https://rocketseat.com.br/).
 
-<h1 align="center">
-    <img style="width:70%" alt="proffy-lks" src="" />
-    <br>
-</h1>
+<div align="center">
+    <img src="images/preview/landing.svg" alt="home page of web react app" />
+</div>
 
 <p align="center">
     <img alt="npm" src="https://img.shields.io/badge/npm-v6.14.4-purple" />
