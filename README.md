@@ -35,10 +35,6 @@ Projeto foi desenvolvido na semana de treinamento da NLW - 02, oferecido pela [R
 - [x] Listagem dos professores que você favoritou.
 
 
-## :rocket: Tecnologias
-
-Projeto foi desenvolvido no treinamento **Next Level Week #2**, realizado pela [Rockseat](https://rocketseat.com.br/).
-
 <h2 id="tecnologias">
   🛠 Tecnologias
 </h2>
@@ -50,30 +46,6 @@ Projeto foi desenvolvido no treinamento **Next Level Week #2**, realizado pela [
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-
-## :bookmark_tabs: Dependências
-
-**Server (Node.js):**
-
-<img alt="express" src="https://img.shields.io/badge/express-^4.17.1-orange" />  
-<img alt="cors" src="https://img.shields.io/badge/cors-^2.8.5-orange" /> 
-<img alt="knex" src="https://img.shields.io/badge/knex-^0.21.2-orange" /> 
-<img alt="sqlite3" src="https://img.shields.io/badge/sqlite3-^5.0.0-orange" />
-
-<br/>
-<br/>
-
-**Web (ReactJS):**
-  
-<img alt="axios" src="https://img.shields.io/badge/axios-^0.19.2-brightgreen" />
-<img alt="react" src="https://img.shields.io/badge/react-^16.13.1-brightgreen" /> 
-<img alt="react-dom" src="https://img.shields.io/badge/react--dom-^16.13.1-brightgreen" /> 
-<img alt="react-router-dom" src="https://img.shields.io/badge/react--router--dom-^5.2.0-brightgreen" /> 
-<img alt="react-scripts" src="https://img.shields.io/badge/react--scripts-3.4.1-brightgreen" /> 
-<img alt="typescript" src="https://img.shields.io/badge/typescript-^3.7.5-brightgreen" />
-
-<br/>
-<br/>
 
 <h2 id="install">
    📜️ Instalação
@@ -137,7 +109,7 @@ yarn start
   📝 Licença
 </h2>
 
-Copyright © 2020 [Alexandre Costa](https://github.com/SenaBel).<br />
+Copyright © 2020 [Abel Sena](https://github.com/SenaBel).<br />
 This project is [MIT](./LICENSE.txt) licensed.
 
 
@@ -152,6 +124,6 @@ This project is [MIT](./LICENSE.txt) licensed.
 </a>
 
 
-Desenvolvido por Abel Sena  👋🏽 Entre em contato!🚀
+Desenvolvido por Abel Sena  👋🏽 Entre em contato: abelsena1@hotmail.com🚀
 
 <a href="www.linkedin.com/in/abel-sena">
