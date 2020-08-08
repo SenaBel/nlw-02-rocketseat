@@ -11,19 +11,45 @@ Projeto foi desenvolvido na semana de treinamento da NLW - 02, oferecido pela [R
 </p>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#bookmark_tabs-dependências">Dependências</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-como-clonar-o-projeto">Clonagem do projeto</a>
+  <a href="#rocket-tecnologias">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bookmark_tabs-dependências">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-como-clonar-o-projeto">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bookmark_tabs-dependências">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bookmark_tabs-dependências">Author</a>
+  
 </p>
+
+### Web
+
+- [x] Opção de estudar ou dar aulas.
+- [x] Fórmulario para cadastro de professores.
+- [x] Fitragem de professores.
+- [x] Entrar em contado com os professores pelo Whatsapp.
+
+### Mobile
+
+- [x] Opção de estudar ou dar aulas.
+- [x] Fitragem de professores.
+- [x] Entrar em contado com os professores pelo Whatsapp.
+- [x] Opção para você favoritar os professores.
+- [x] Listagem dos professores que você favoritou.
+
 
 ## :rocket: Tecnologias
 
-Projeto foi desenvolvido no treinamento **Next Level Week #2**, realizado pela [Rockseat](https://rocketseat.com.br/). Segue abeixo as tecnologias usadas no projeto:
+Projeto foi desenvolvido no treinamento **Next Level Week #2**, realizado pela [Rockseat](https://rocketseat.com.br/).
 
--  [Node.js](https://nodejs.org/en/)
--  [ReactJS](https://reactjs.org/)
--  [React Native](https://reactnative.dev/)
--  [TypeScript](https://www.typescriptlang.org/)
+<h2 id="tecnologias">
+  🛠 Tecnologias
+</h2>
+
+ As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## :bookmark_tabs: Dependências
 
@@ -49,27 +75,83 @@ Projeto foi desenvolvido no treinamento **Next Level Week #2**, realizado pela [
 <br/>
 <br/>
 
+<h2 id="install">
+   📜️ Instalação
+</h2>
 
-## :information_source: Segue abaixo como clonar o projeto
+### Pré-requisitos
 
-Para clonar e executar esta aplicação, você precisará das seguintes tecnologias instaladas em sua máquina, com a respectiva versão ou - possivelmente - superior:
-- Git v2.28.0;
-- Node.js v12.18.3;
-- npm v6.14.6.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/) instala no seu celular ou emulador.
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Rodando o Back End (servidor)
 
 ```bash
-# Clonando o repositório
-$ git clone https://github.com/SenaBel/nlw-02-rocketseat.git
+# Clone este repositório
+$ git clone <https://github.com/SenaBel/nlw-02-rocketseat.git>
 
-# Para cada uma das pastas (server, web and mobile), será necessário navegar até elas e utilizar dos seguintes comandos através de um terminal:
-
-# Para o servidor (backend)
+# Vá para a pasta server
 $ cd server
-$ npm install
-$ npm run knex:migrate
-$ npm start
 
-# Para o projeto web (frontend)
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
+
+# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+```
+
+### 💻️ Rodando o Front End (plataforma web)
+
+```bash
+# Vá para a pasta web
 $ cd web
-$ npm install
-$ npm start
+
+# Instale as dependências
+$ yarn
+
+# Execute aplicação
+yarn start
+
+# O app vai está rodando na porta 3000 - acesse <http://localhost:3000>
+```
+
+### 📱️ Rodando o Mobile (aplicativo mobile)
+
+```bash
+# Vá para a pasta web
+$ cd mobile
+
+# Instale as dependências
+$ yarn
+
+# Execute aplicação
+yarn start
+
+# Com esse comando ele vai abrir uma aba no seu navegador com um QR CODE.
+# No seu celular(ou emulador) abre o aplicativo chamado Expo, e escaneie o QR CODE.
+```
+<h2 id="license">
+  📝 Licença
+</h2>
+
+Copyright © 2020 [Alexandre Costa](https://github.com/SenaBel).<br />
+This project is [MIT](./LICENSE.txt) licensed.
+
+
+<h2 id="author">
+    Desenvolvedor
+</h2>
+
+<a href="https://github.com/SenaBel/">
+ <img src="https://avatars2.githubusercontent.com/u/39493441?s=460&u=5a58e24e095c649365351116b48ed79dc0663b8a&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Abel Sena</b></sub>
+</a>
+
+
+Desenvolvido por Abel Sena  👋🏽 Entre em contato!🚀
+
+<a href="www.linkedin.com/in/abel-sena">
